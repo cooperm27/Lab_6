@@ -10,9 +10,9 @@ public class RollDemDice {
 		
 										
 		Scanner scnr = new Scanner(System.in);
+		System.out.println("Welcome to the Grand Circus Casino!");
 	
-	do {	
-		System.out.println("Hi, Let's roll dem dice");	
+	do {		
 		System.out.println();	
 		System.out.println("How many sides should each die have?");	
 		numOfSides = scnr.nextInt();
